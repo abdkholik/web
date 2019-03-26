@@ -1,0 +1,93 @@
+.container{
+	width: 100%;
+	height: 1000px;
+	background: yellow;
+
+}
+.menu{
+	text-align: center;
+
+}
+.menu li{
+	display: inline-block;
+	margin: 0 20px; 
+
+}
+.logo img{
+	width: 100%;
+	height: 500px;
+	padding: 10px 0px 50px;
+}
+.box{
+	overflow: 0 auto;
+	display: inline-block;
+	background-color: red;
+	width: 80%;
+	max-height: 200px;
+	box-shadow: 5px 5px 50px black;
+	margin-bottom: 20px;
+	float: right;
+}
+.box1{
+	overflow: 0 auto;
+	display: inline-block;
+	background-color: red;
+	width: 75%;
+	max-height: 200px;
+	box-shadow: 5px 5px 50px black;
+	margin-bottom: 20px;
+	float: left;
+}
+.box3{
+	overflow: 0 auto;
+	display: inline-block;
+	width: 32%;
+	height: 300px;
+	background: brown;
+}
+.article{
+	overflow: auto;
+}
+.article img {
+  /*display: inline-block;*/
+  width: 350px;
+  overflow: auto;
+}
+.article p{
+		float: right;
+		width: 65%;
+		text-align: center;
+		margin-top:  auto;
+		overflow:  auto;
+
+}
+
+.article .intro {
+  display: inline-block;
+  width: 400px;
+  padding: 0 20px;
+  vertical-align: top;
+  text-align: right;
+}
+.article .intro h2{
+	text-shadow: 3px 3px 5px white;
+	color: blue;
+	float: left;
+	width: 35%;
+	margin-top: auto;
+	overflow: auto;
+	
+}
+.article .intro p {
+	text-align: justify;
+	width: 100%;
+	
+}
+
+.footer{
+	width: 100%;
+	height: 20px;
+	background-color: black;
+	text-align: center;
+	color: white
+}
